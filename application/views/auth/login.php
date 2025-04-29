@@ -23,6 +23,9 @@
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
+      <?php if ($this->session->flashdata('error') ); ?>
+      <p style="color;red;"><?= $this->session->flashdata('error') ); ?></P>
+      <?php endif;?>
 
       <form action="../../index3.html" method="post">
         <div class="input-group mb-3">
