@@ -64,7 +64,7 @@
           </div>
           <div class="box-footer">
             <button type="submit" class="btn btn-primary">Simpan</button>
-            <a href="<?= base_url('Auth'); ?>" class="btn btn-secondary">Batal</a>
+            <a href="<?= base_url('auth/login'); ?>" class="btn btn-secondary">Batal</a>
           </div>
         </form>
       </div>
